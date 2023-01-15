@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "ES2015",
+		"moduleResolution": "node",
+		"lib": [
+			"ES2016"
+		],
+		"rootDir": "src",
+		"outDir": "lib",
+		"strict": true,
+		"alwaysStrict": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": false,
+		"noFallthroughCasesInSwitch": true,
+		"declaration": true,
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"src/*.test.ts"
+	]
+}

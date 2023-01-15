@@ -1,0 +1,40 @@
+{
+    "name": "smart-variables",
+    "version": "1.0.0",
+    "main": "./lib/index.js",
+    "typings": "./lib/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "build:watch": "tsc --watch",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "prepublish": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/humanfriend22/smart-variables.git"
+    },
+    "author": {
+        "name": "humanfriend22",
+        "email": "humanfriend22@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/humanfriend22/smart-variables/issues"
+    },
+    "homepage": "https://github.com/humanfriend22/smart-variables#readme",
+    "devDependencies": {
+        "@jest/globals": "^29.3.1",
+        "@types/jest": "^29.2.5",
+        "jest": "^29.3.1",
+        "jest-environment-jsdom": "^29.3.1",
+        "ts-jest": "^29.0.4",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.4"
+    },
+    "description": "",
+    "files": [
+        "src/*.ts"
+    ]
+}
